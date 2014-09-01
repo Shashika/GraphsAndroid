@@ -16,6 +16,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="53dp"
         android:onClick="graphHandler"
-        android:text="View Graph" />
+        android:text="View Line Graph" />
+
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/button1"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="14dp"
+         android:onClick="dynamicGraphHandler"
+         android:text="View Dynamic Graph" />
 
 </RelativeLayout>
